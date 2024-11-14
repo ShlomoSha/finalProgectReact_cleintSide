@@ -7,7 +7,7 @@ import LoginGuard from './components/guard/LoginGaurd'
 
 export default function App() {
   return (
-    <div>
+    <div className='app'>
       <Nav />
       <Routes>
         <Route path='login' element={<Login/>} />
