@@ -10,6 +10,7 @@ export default function Header({organization, ammo}: HeaderProps) {
   return (
     <div className='header'>
         <h2>Organization: {organization}</h2>
+        <h4>you'r available ammo</h4>
         {ammo.map(a => <p>{a.name} × {a.amount}</p>)}
     </div>
   )
